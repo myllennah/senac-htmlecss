@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+p, div{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;   
+}
+
+h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color:rgb(39, 39, 119);
+}
+
+ul{
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+li{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color:blue;
+}
+
+/* Classe */
+.Paragrafo{
+    background-color:#324598;
+    color: chartreuse;
+    padding: 10px;
+}
+
+#titulo-com-id{
+    background-color: darkmagenta;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Regra de Ordem */
+h1{
+    border-bottom: 2px solid brown;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.class-titulo{
+    border-bottom: 3px solid turquoise;
+}
+
+#id-titulo{
+    border-bottom: 4px solid coral;
+}
+
+/* Nome da cor */
+.color-name{
+    color:deeppink;
+}
+
+/* Padrões de Cores */
+.rgb{
+    color:rgb(76, 109, 14);
+}
+
+.rgba{
+    color: rgba(230, 0, 142, 0.6);
+}
+
+.hex{
+    color:#324598;
+}
+
+.hex-simplificado{
+    color: #a6e;
+}
+
+.hsl{
+    color: hsl(100, 70%, 50%)
+}
+
+/* Background*/
+.bg-color{
+    background-color: crimson;
+    color:burlywood;
+}
+
+.bg-titulo{
+    background-color:coral;
+    color:darkblue;
+}
+
+.bg-opacity1{
+    background-color: blueviolet;
+    opacity: 0.2
+}
+
+.bg-opacity2{
+    background-color: blueviolet;
+    opacity: 0.8
+}
+
+.bgimage{
+    background-image: url(../img/citybg.jpg);
+    color: #ffffff;
+    padding: 10px;
+}
+
+/* Aplicando regra de estilo para vários elementos de uma só vez */
+.bgimg-naocentral, .bgimg-central{
+    background-image: url(../img/senacl13.jpg);
+    height: 400px;
+    width: 400px;
+    color:azure;
+    border:#a6e solid 3px;
+
+}
+
+.bgimg-central{
+    background-position: center;
+    background-size: cover;
+}
+
+/* Altura e largura */
+.altura-largura{
+    height: 500px;
+    width: 500px;
+    background-color: coral;
+}
+
+.altura-largura-nova{
+    height: 300px;
+    background-color: darkgreen;
+}
+
+/* Padding */
+.sem-padding{
+    background-color: aqua;
+    padding: none;
+    height: 200px;
+    width: 200px;
+}
+
+.com-padding{
+    background-color: aqua;
+    padding: 30px;
+    height: 300px;
+    width: 300px;
+}
+
+.padding-lados{
+    background-color: darkslateblue;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    padding-right: 40px;
+    
+}
+
+/* Shorthand Padding */
+.shorthand-padding{
+    background-color:darkgoldenrod;
+    padding: 6px 12px 18px 24px;
+
+}
+
+.shorthand-padding2{
+    background-color:darkorchid;
+    padding: 6px 24px; /* é o mesmo que "6px 24px 6px 24px" */
+}
+
+/* Bordas */
+.border1{
+    border: 5px solid green;
+    padding: 20px;    
+}
+
+.border2{
+    border: 3px dotted green;
+    padding: 20px;    
+}
+
+.borda-esq{
+    background-color: tomato;
+    color: azure;
+    padding: 25px;
+    border-left: 5px solid brown;
+}
+
+.borda-inf{
+    background-color: tomato;
+    color: azure;
+    padding: 25px;
+    border-bottom: 20px double brown;
+}
+
+.borda-dir{
+    background-color: tomato;
+    color: azure;
+    padding: 25px;
+    border-right: 10px dashed brown;
+}
+
+.borda-sup{
+    background-color: tomato;
+    color: azure;
+    padding: 25px;
+    border-top: 15px dotted brown;
+}
+
+.borda-total{
+    background-color: violet;
+    color: chartreuse;
+    padding: 25px;
+    border-top: 5px dotted salmon;
+    border-right: 10px solid greenyellow;
+    border-bottom: 15px dashed blue;
+    border-left: 20px double hotpink;
+}
+
+/* Arredondamento */
+.paragrafo-arredondado{
+    background-color: darkgreen;
+    color: darkgray;
+    padding: 20px;
+    border: 5px solid firebrick;
+    border-radius: 20px;
+}
+
+.paragrafo-arredondado2{
+    background-color: slateblue;
+    color: blanchedalmond;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* Margens */
+.margin{
+    background-color: hotpink;
+    color: honeydew;
+    margin: 20px;
+}
+
+.margin-top{
+    background-color: rebeccapurple;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.margin-diff{
+    background-color: teal;
+    margin: 8px 16px 24px 32px;
+}
+
+/* Alinhamento de texto */
+.align-right{
+    text-align: right;
+}
+
+.center-container{
+    border: 4px solid palevioletred;
+        text-align: center;
+}
+
+/* Text decorations */
+.underline{
+    text-decoration: underline;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.overline{
+    color:cyan;
+    text-decoration: overline;
+}
+
+.remove-underline{
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+/* Fontes */
+.font-serif{
+    font-family: serif;
+}
+
+.font-sans-serif{
+    font-family: sans-serif;
+}
+
+.font-monospace{
+    font-family: monospace;
+}
+
+.font-cursive{
+    font-family: cursive;
+}
+
+.font-fantasy{
+    font-family: fantasy;
+}
+
+.font-import{
+    font-family:'Croissant One';
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.size-150px{
+    font-size: 150px;
+}
+
+.size-xxsmall{
+    font-size: xx-small;
+}
+

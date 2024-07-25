@@ -1,0 +1,124 @@
+body{
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 30px;   
+}
+
+/* Bloco embutido - horizontal*/
+.inline-block{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(241, 142, 105);
+    border: solid 2px turquoise;
+    margin: 15px;
+    color: turquoise;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Bloco vertical*/
+.block{
+    background-color: darkmagenta;
+    border: solid 2px darkolivegreen;
+    margin: 20px;
+    color: darkolivegreen;
+    display: block;
+}
+
+/* Impedindo a exibição */
+.escondendo{
+    display: none;
+}
+
+/* Estático - segue o fluxo do html - não é afetado por top, left, right ou bottom */
+.static{
+    position: static;
+    background-color: chartreuse;
+    padding: 20px;
+}
+
+/* Posição relativa */
+.relative{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 250px;
+    height: 250px;
+    background-color: midnightblue;
+    color: beige;
+}
+
+/* Posição Absoluta - em relação à janela */
+.absolute{
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    width: 200px;
+    height: 150px;
+    background-color: navy;
+    color: navajowhite;
+}
+
+/* Bloco absoluto com relativo */
+.bloco-relativo{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    border: solid 5px hotpink;
+}
+
+/* Erro: resolver com "relative" no bloco relativo */
+.bloco-absoluto1, .bloco-absoluto2{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: brown;
+}
+
+.bloco-absoluto1{
+    top: 2px;
+    left: 2px;
+}
+
+.bloco-absoluto2{
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Posição Sticky */
+.sticky{
+    position: sticky;
+    top: 30px;
+    width: 200px;
+    height: 100px;
+    background-color: violet;
+}
+
+/* Z-index */
+.bloco-absoluto3, .bloco-absoluto4, .bloco-absoluto5{
+    position: absolute;
+    width: 70px;
+    height: 80px;
+}
+
+.bloco-absoluto3{
+    z-index: 3;
+    top: 0px;
+    left: 0px;
+    background-color: cornflowerblue;
+}
+
+.bloco-absoluto4{
+    z-index: 1;
+    top: 25px;
+    left: 25px;
+    background-color: lightcoral;
+}
+
+.bloco-absoluto5{
+    z-index: 3;
+    top: 50px;
+    left: 50px;
+background-color: khaki;
+}
