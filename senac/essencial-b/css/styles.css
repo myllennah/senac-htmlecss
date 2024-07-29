@@ -255,6 +255,18 @@ h1{
     margin: 8px 16px 24px 32px;
 }
 
+/* Box Model - Juntos */
+.box-model{
+    background-color: aqua;
+    color: black;
+    width: 200px;
+    height: 200px;
+    padding: 10px 10px 15px 25px;
+    border: 5px solid crimson;
+    border-radius: 10px;
+    margin: auto;
+}
+
 /* Alinhamento de texto */
 .align-right{
     text-align: right;
